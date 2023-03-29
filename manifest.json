@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "DarkWave",
+  "version": "1.0",
+  "description": "A lightweight extension that provides dark mode functionality.",
+  "icons": {
+    "48": "icons/48pxblacksunglasses.png"
+  },
+  "permissions": [
+    "<all_urls>",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/48pxblacksunglasses.png"
+    },
+    "default_title": "DarkWave",
+    "default_popup": "popup.html"
+  }
+}
